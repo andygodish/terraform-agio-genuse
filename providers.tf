@@ -7,7 +7,8 @@ terraform {
       version = ">=3.25.0"
     }
   }
-  provider "azurerm" {
-    features {}
-  }
+}
+
+provider "azurerm" {
+  features {}
 }
