@@ -20,7 +20,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_resourcegroup"></a> [resourcegroup](#module\_resourcegroup) | app.terraform.io/andygio/resourcegroup/azure | 1.0.2 |
+| <a name="module_resourcegroup"></a> [resourcegroup](#module\_resourcegroup) | app.terraform.io/andygio/resourcegroup/azure | 1.0.3 |
 
 ## Resources
 
