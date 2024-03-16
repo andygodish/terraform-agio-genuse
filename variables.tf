@@ -18,11 +18,6 @@ variable "location" {
   nullable    = false
   description = "The AZURE region location where this resource will be deployed to"
 }
-variable "resource_group_name" {
-  type        = string
-  nullable    = false
-  description = "The resource group name this private endpoint needs to be created in"
-}
 variable "sub_prefix" {
   type        = string
   nullable    = false
@@ -39,10 +34,3 @@ variable "unique_name_string" {
   nullable    = true
   default     = ""
 }
-variable "virtual_network_subnet_id" {
-  type        = string
-  nullable    = false
-  description = "The outbound subnet that this app needs to be bound to"
-}
-
-
