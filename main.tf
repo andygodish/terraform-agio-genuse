@@ -1,6 +1,6 @@
 module "resourcegroup" {
   source  = "app.terraform.io/andygio/resourcegroup/azure"
-  version = "1.0.2"
+  version = "1.0.3"
 
   app_env    = var.app_env
   app_prefix = var.app_prefix
