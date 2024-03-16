@@ -4,7 +4,7 @@ module "resourcegroup" {
 
   app_env    = var.app_env
   app_prefix = var.app_prefix
-  location = var.location
+  location   = var.location
   sub_prefix = var.sub_prefix
-  tags = var.tags
+  tags       = var.tags
 }
