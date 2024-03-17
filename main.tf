@@ -7,7 +7,7 @@ module "resourcegroup" {
   location   = var.location
   sub_prefix = var.sub_prefix
 
-  tags       = var.tags
+  tags = var.tags
 }
 
 module "storageaccount" {
@@ -20,6 +20,7 @@ module "storageaccount" {
   app_prefix = var.app_prefix
   location   = var.location
   sub_prefix = var.sub_prefix
-  
-  tags       = var.tags
+  containers = var.containers
+
+  tags = var.tags
 }
